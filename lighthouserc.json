@@ -1,0 +1,20 @@
+{
+  "ci": {
+    "collect": {
+      "numberOfRuns": 2,
+      "settings": {}
+    },
+    "assert": {
+      "preset": "lighthouse:no-pwa",
+      "assertions": {
+        "offscreen-images": "off",
+        "uses-webp-images": "off"
+      }
+    },
+    "upload": {
+      "target": "lhci",
+      "serverBaseUrl": "http://52.142.9.211:9001/app/projects",
+      "token": "077da5ac-df65-4d87-ada1-1851fe90a9eb"
+    }
+  }
+}
