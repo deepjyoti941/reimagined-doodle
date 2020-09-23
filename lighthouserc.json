@@ -13,7 +13,7 @@
     },
     "upload": {
       "target": "lhci",
-      "serverBaseUrl": "http://52.142.9.211:9001/app/projects",
+      "serverBaseUrl": "http://52.142.9.211:9001",
       "token": "077da5ac-df65-4d87-ada1-1851fe90a9eb"
     }
   }
