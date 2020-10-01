@@ -5,7 +5,6 @@
       "settings": {}
     },
     "assert": {
-      "preset": "lighthouse:recommended",
       "assertions": {
         "categories.pwa": "off",
         "bypass": ["error", {"minScore": 0}],
